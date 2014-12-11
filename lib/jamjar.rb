@@ -1,5 +1,5 @@
 require "jamjar/version"
 
-module Jamjar
+module JamJar
   # Your code goes here...
 end

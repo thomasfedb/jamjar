@@ -1,4 +1,19 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in jamjar.gemspec
 gemspec
+
+gem "bundler"
+# gem "appraisal"
+
+gem "rake"
+
+gem "rspec"
+gem "fuubar"
+
+# gem "simplecov", require: false
+# gem "coveralls", require: false
+
+group :tools do
+  gem "byebug", platform: [:ruby_20, :ruby_21]
+  gem "debugger", platform: :ruby_19
+end
