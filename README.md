@@ -1,31 +1,28 @@
-# Jamjar
+# JamJar
 
-TODO: Write a gem description
+JamJar dynamically creates SQLite-backed, in memory, ActiveRecord models to help you test your ActiveRecord extensions.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'jamjar'
+gem "jamjar"
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install jamjar
-
 ## Usage
 
-TODO: Write usage instructions here
+TODO
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/jamjar/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Fork it
+2. Create a branch (`git checkout -b super-foo`)
+3. Add your feature and specs.
+4. Commit your changes (`git commit -am 'Extra-super foo-matic.'`)
+5. Push to the branch (`git push origin super-foo`)
+6. Create new Pull Request
