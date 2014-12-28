@@ -8,6 +8,7 @@ gem "bundler"
 gem "rake"
 
 gem "rspec"
+gem "rspec-expect_it"
 gem "fuubar"
 
 # gem "simplecov", require: false
