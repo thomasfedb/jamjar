@@ -1,3 +1,8 @@
+[![Build Status](https://img.shields.io/travis/thomasfedb/jamjar.svg?style=flat-square)](https://travis-ci.org/thomasfedb/jamjar)
+[![Coverage Status](https://img.shields.io/coveralls/thomasfedb/jamjar.svg?style=flat-square)](https://coveralls.io/r/thomasfedb/jamjar?branch=master)
+[![Gem Version](https://img.shields.io/gem/v/jamjar.svg?style=flat-square)](http://rubygems.org/gems/jamjar)
+[![Code Climate](https://img.shields.io/codeclimate/github/thomasfedb/jamjar.svg?style=flat-square)](https://codeclimate.com/github/thomasfedb/jamjar)
+
 # JamJar
 
 JamJar dynamically creates ActiveRecord models, backed by in-memory SQLite, to help you test your ActiveRecord extensions.
