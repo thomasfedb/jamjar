@@ -1,0 +1,19 @@
+language: ruby
+
+env:
+  global:
+    - TRAVIS_CI=1
+
+rvm:
+  - 1.9.3
+  - 2.1.5
+
+gemfile:
+  - gemfiles/activerecord_3.2.gemfile
+  - gemfiles/activerecord_4.0.gemfile
+  - gemfiles/activerecord_4.1.gemfile
+  - gemfiles/activerecord_4.2.gemfile
+
+bundler_args: --without tools
+
+script: bundle exec rspec -b

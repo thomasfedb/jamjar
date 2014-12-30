@@ -11,8 +11,8 @@ gem "rspec"
 gem "rspec-expect_it"
 gem "fuubar"
 
-# gem "simplecov", require: false
-# gem "coveralls", require: false
+gem "simplecov", require: false
+gem "coveralls", require: false
 
 group :tools do
   gem "byebug", platform: [:ruby_20, :ruby_21]
