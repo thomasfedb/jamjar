@@ -17,6 +17,12 @@ RSpec.describe JamJar do
       subject { JamJar.model { column :foo, :string } }
 
       specify { expect(subject.new).to respond_to(:foo) }
+
+      context "with options" do
+        subject { JamJar.model { column :foo, :string, default: "bar" } }
+        
+        specify { expect(subject.new.foo).to eq "bar" }
+      end
     end
   end
 end

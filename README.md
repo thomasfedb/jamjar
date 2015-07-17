@@ -46,6 +46,8 @@ JamJar.model do
 end
 ```
 
+You can pass any options for your column that are supported by Rails, as described in the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/TableDefinition.html#method-i-column).
+
 ## Contributing
 
 1. Fork it
