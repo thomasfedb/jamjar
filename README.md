@@ -48,6 +48,12 @@ end
 
 You can pass any options for your column that are supported by Rails, as described in the [Rails API Documentation](http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/TableDefinition.html#method-i-column).
 
+```ruby
+JamJar.model do
+  column :foo, :string, default: "bar"
+end
+```
+
 ## Contributing
 
 1. Fork it
