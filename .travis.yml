@@ -16,6 +16,7 @@ gemfile:
   - gemfiles/activerecord_4.1.gemfile
   - gemfiles/activerecord_4.2.gemfile
 
+before_install: gem update bundler
 bundler_args: --without tools
 
 script: bundle exec rspec -b
