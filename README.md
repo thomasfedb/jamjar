@@ -1,6 +1,5 @@
-[![Build Status](https://img.shields.io/travis/thomasfedb/jamjar.svg?style=flat-square)](https://travis-ci.org/thomasfedb/jamjar)
-[![Coverage Status](https://img.shields.io/coveralls/thomasfedb/jamjar.svg?style=flat-square)](https://coveralls.io/r/thomasfedb/jamjar?branch=master)
 [![Gem Version](https://img.shields.io/gem/v/jamjar.svg?style=flat-square)](http://rubygems.org/gems/jamjar)
+[![Build Status](https://img.shields.io/travis/thomasfedb/jamjar.svg?style=flat-square)](https://travis-ci.org/thomasfedb/jamjar)
 [![Code Climate](https://img.shields.io/codeclimate/github/thomasfedb/jamjar.svg?style=flat-square)](https://codeclimate.com/github/thomasfedb/jamjar)
 
 # JamJar
