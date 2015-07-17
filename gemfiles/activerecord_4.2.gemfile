@@ -8,8 +8,6 @@ gem "rake"
 gem "rspec"
 gem "rspec-expect_it"
 gem "fuubar"
-gem "simplecov", :require => false
-gem "coveralls", :require => false
 gem "activerecord", "~> 4.2", :require => "active_record"
 
 group :tools do
