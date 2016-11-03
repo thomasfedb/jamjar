@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gemspec
 
-gem "bundler"
+gem "bundler", ">= 1.7.0"
 gem "appraisal"
 
 gem "rake"
